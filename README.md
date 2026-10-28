@@ -20,7 +20,7 @@ The application processes live camera input through a multi-stage computer visio
 
 | Identity Recognition | Emotion Classification |
 |:---:|:---:|
-| ![Identity Recognition](docs\happy.png) | ![Emotion Classification](https://github.com/Dronquavious/real-time-face-recognition/raw/main/docs/happy.png) |
+| ![Identity Recognition](https://raw.githubusercontent.com/Andycs09/Face-Detection-using-Open-CV/refs/heads/main/docs/happy.png) | ![Emotion Classification](https://github.com/Dronquavious/real-time-face-recognition/raw/main/docs/happy.png) |
 | Recognizes an enrolled individual and displays the prediction. | Classifies a facial expression as happy. |
 
 ## Technology Stack
