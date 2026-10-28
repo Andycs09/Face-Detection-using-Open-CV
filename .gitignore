@@ -1,0 +1,40 @@
+# Prerequisites
+*.d
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+*.so
+
+# CMake Build Artifacts
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# macOS Garbage
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code Settings
+.vscode/
+.dist
+.dist/
+
+# Project Specific Data
+# We don't want to commit 100 photos of your face or large training models
+User/
+*.yml
+*.xml
+
+# ignore large datasets and generated models
+assets/dataset/
+assets/face_model.yml
+
+# keep the xml classifiers as they are small and essential
+!assets/*.xml
+
+*.onnx
